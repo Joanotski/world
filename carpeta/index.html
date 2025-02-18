@@ -13,16 +13,6 @@
 <body>
     <div id="map"></div>
 
-    <script>
-        var map = L.map('map').setView([20, 0], 2); // Vista global del mapa
-
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; OpenStreetMap contributors'
-        }).addTo(map);
-
-        // Ejemplo de marcador en París
-        L.marker([48.8566, 2.3522]).addTo(map)
-            .bindPopup('París, Francia');
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
